@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header section  */
+.header {
+    /* margin: 0 200px; */
+    background: rgba(255, 144, 14, 0.10);
+    height: 100vh;
+}
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+ul li > a {
+    text-decoration: none;
+}
+/* banner section  */
+.banner-text {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
