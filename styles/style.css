@@ -156,6 +156,15 @@ main {
   font-weight: 500;
   line-height: 40px;
 }
+/* fact section  */
+.fact-section {
+    padding: 0 100px;
+}
+.fact-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
 
 /* responsive media queries  */
 
@@ -204,6 +213,9 @@ main {
     }
     .feature-img img {
         width: 100%;
+    }
+    .team-grid-img img {
+        width: 80%;
     }
     
 }
