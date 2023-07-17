@@ -89,6 +89,10 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
+/* .team-grid-img img {
+    max-width: 80%;
+} */
+
 .team-heading {
   color: #131313;
   font-size: 45px;
@@ -175,6 +179,7 @@ main {
   .team-container {
     flex-direction: column-reverse;
     padding: 20px;
+    gap: 10px;
   }
   .team-grid-img {
     grid-template-columns: 1fr;
@@ -189,7 +194,16 @@ main {
   }
   .experience-btn {
     position: static;
-    width: 90%;
-    margin-top: 20px ;
+    width: 80%;
+    margin: 20px auto;
   }
+} 
+@media screen and (min-width:577px) and (max-width:992px) {
+    .team-container,.feature-container {
+        flex-direction: column-reverse;
+    }
+    .feature-img img {
+        width: 100%;
+    }
+    
 }
