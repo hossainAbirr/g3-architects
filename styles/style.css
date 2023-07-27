@@ -173,6 +173,7 @@ main {
 }
 /* sponsor section  */
 .sponsor-section {
+  margin-bottom: 250px;
   padding: 0 100px;
   text-align: center;
 }
@@ -181,9 +182,17 @@ main {
   justify-content: space-between;
   margin: 100px 0;
 }
+.sponsor-img img:hover {
+transform: scale(1.25);
+transition: transform 0.3s ease-out;
+cursor: pointer;
+background-color: #fff4e7;
+padding: 15px;
+border-radius: 20px;
+}
 /* footer section  */
 .footer-section {
-  margin: 0 100px 100px 100px;
+  margin: 100px 100px 100px;
   display: flex;
   justify-content: center;
   border-radius: 8px;
@@ -268,10 +277,9 @@ main {
     width: 80%;
   }
   .sponsor-container {
-    
     flex-wrap: wrap;
-    /* justify-content: space-around; */
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
   }
   .experience-btn {
     position: static;
